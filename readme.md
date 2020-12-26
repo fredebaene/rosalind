@@ -1,1 +1,1 @@
-This GitHub repository contains solutions to the Rosalind challenges.
+This GitHub Repository contains the solutions to all the challenges as found on the Rosalind website.
