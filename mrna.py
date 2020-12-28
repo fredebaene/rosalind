@@ -1,6 +1,6 @@
 # ROSALIND INFORMATION - ID : MRNA - TITLE : INFERRING MRNA FROM PROTEIN
 
-def codon_to_amino_acid_mapping(file_directory):
+def load_codons(file_directory):
 
     codons = {}
 
@@ -30,7 +30,7 @@ def number_of_codons_per_amino_acid(file_directory):
 
 def number_of_mrna_molecules_per_protein(amino_acid_sequence):
 
-    numbers_per_aa = number_of_codons_per_amino_acid("./number_of_codons_per_amino_acid.txt")
+    numbers_per_aa = load_codons("./rna_codons.txt")
     n = 1000000
     result = 1
 
