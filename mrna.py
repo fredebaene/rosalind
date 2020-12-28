@@ -30,7 +30,7 @@ def number_of_codons_per_amino_acid(file_directory):
 
 def number_of_mrna_molecules_per_protein(amino_acid_sequence):
 
-    numbers_per_aa = number_of_codons_per_amino_acid("number_of_codons_per_amino_acid.txt")
+    numbers_per_aa = number_of_codons_per_amino_acid("./number_of_codons_per_amino_acid.txt")
     n = 1000000
     result = 1
 
