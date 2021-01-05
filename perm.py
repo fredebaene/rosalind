@@ -44,4 +44,8 @@ if __name__ == "__main__":
     number_of_permutations = factorial(n)
     print(number_of_permutations)
     permutations = permutations(n, number_of_permutations)
-    print(permutations)
+    for i in range(len(permutations)):
+        message = ""
+        for j in range(len(permutations[i])):
+            message += str(permutations[i][j]) + " "
+        print(message[0:-1])
