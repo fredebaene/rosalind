@@ -14,8 +14,9 @@ def read_fasta_file(file_directory):
 
                 if lines.index(i) > 0:
                     sequences[sequence_id] = sequence
+                    sequence = ""
 
-                sequence_id = i[:-1]
+                sequence_id = i[1:-1]
 
             else:
 

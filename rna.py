@@ -8,7 +8,7 @@ def transcribe_as_coding_strand(sequence):
     for i in sequence:
 
         pre_mrna += mapping[i]
-    
+
     return pre_mrna
 
 if __name__ == "__main__":

@@ -29,4 +29,4 @@ if __name__ == "__main__":
     coding_strand = splicing(sequences)
     mrna = rna.transcribe_as_coding_strand(coding_strand)
     protein = prot.translate(mrna)
-    print(protein == "MVYIADKQHVASREAYGHMFKVCA")
+    print(protein)
